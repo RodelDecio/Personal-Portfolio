@@ -1,0 +1,42 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 40px; 
+    background-color: #333; 
+  }
+  
+  
+  .header__logo img {
+    height: 40px; 
+    width: auto;
+  }
+  
+ 
+  .header__nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .header__nav__item {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+ 
+  .header__nav__item:hover {
+    color: #ff9900; 
+  }
+  

@@ -1,0 +1,11 @@
+<section id="projects" class="projects">
+    <h2 class="projects__title">Projects</h2>
+    <div class="projects__grid">
+      <div class="projects__item" *ngFor="let project of projects">
+        <img [src]="project.image" [alt]="project.title" class="projects__image" />
+        <h3 class="projects__name">{{ project.title }}</h3>
+        <p class="projects__description">{{ project.description }}</p>
+      </div>
+    </div>
+  </section>
+  
